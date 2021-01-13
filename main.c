@@ -6,13 +6,13 @@ int main(){
   int t=0,enyuk=0,sira=0,N,a;
   float ort;
   int LOW = 60;
-  printf("Siniftaki ogrenci sayisini giriniz=");
+  printf("Siniftaki ogrenci sayisini giriniz= ");
   scanf("%d",&N);
   unsigned int degree[N];
   printf("\n");
   for(int i=1;i<=N;i++){
         int num = i-1;
-        printf("%d. ogrencinin notunu giriniz=",i);
+        printf("%d. ogrencinin notunu giriniz= ",i);
         scanf("%d",&a);
         if(a >= 0 && a <= 100){
               degree[num] =a;
@@ -41,6 +41,6 @@ printf("\n**SONUCLER**\n");
     a++;
   }
 
-  printf("\n En yuksek not %d. ogrencinin notu olan %d dir",sira,enyuk);
+  printf("\n En yuksek not %d. ogrencinin notu olan %d dir \n",sira,enyuk);
   return 0;
 }
